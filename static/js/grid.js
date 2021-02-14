@@ -36,7 +36,7 @@ const getTags = (obj) => {
 }
 
 const makeGrid = (projects) => {
-    let grid = document.querySelector('.projects-list');
+    const grid = document.querySelector('.projects-list');
     while(grid.firstChild) {
         grid.removeChild(grid.firstChild);
     }

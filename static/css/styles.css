@@ -237,6 +237,23 @@ nav {
     margin: 8%;
 }
 
+/* Detail page */
+.illustration {
+    max-width: 50%;
+}
+
+.content {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.content h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #0B4761;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 /* Footer */
 .footer {
     margin-top: 2%;

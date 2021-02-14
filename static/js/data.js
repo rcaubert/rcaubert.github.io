@@ -92,7 +92,7 @@ const data = [
    "image": "sportscovid.png",
    "video": "",
    "article_link": "https://www.lemonde.fr/les-decodeurs/article/2020/10/18/coronavirus-athletisme-fitness-water-polo-quels-risques-de-contamination-pour-40-sports-populaires_6056481_4355770.html",
-   "content": "<h3>Covid-19 : football, natation ou fitness… quel sport comporte le moins de risques de contamination au Covid-19 ?</h3>",
+   "content": "<h3>Covid-19 : football, natation ou fitness… quel sport comporte le moins de risques de contamination au Covid-19 ?</h3>\n<p>This searchable snippet lists 40 sports that my colleague and I classified based on the covid-19 contamination risks each one of them represents indoors and outdoors.</p>",
    "href": "le_monde/sportscovid.html"
  },
  {
