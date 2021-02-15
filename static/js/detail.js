@@ -6,7 +6,7 @@ const makeContent = () => {
         if (d.id === id) {
             project = d;
         }
-    })
+    });
     if (project.title.length > 0) {
         container.innerHTML +=
         `<div class="row d-flex justify-content-center">
@@ -30,11 +30,7 @@ const makeContent = () => {
         </div>`;
     }
     container.innerHTML +=
-    `
-    <div class="row">
-        <a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back to the grid</button></a>
-    </div>
-    `;
+    `<div class="row content d-flex justify-content-center"><a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back to the grid</button></a></div>`;
 }
 
 window.addEventListener('load', makeContent);
