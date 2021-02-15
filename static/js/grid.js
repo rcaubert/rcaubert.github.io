@@ -1,5 +1,4 @@
 const mobile = isMobile();
-console.log(mobile);
 const getProjects = (data, tag) => {
     let ret;
     console.log("tag", tag);
