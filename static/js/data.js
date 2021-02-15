@@ -187,7 +187,7 @@ const data = [
    "publisher": "Personal project",
    "image": "broadway.png",
    "video": "",
-   "article_link": "broadway-timeline/index.html",
+   "article_link": "https://github.com/rcaubert/broadway-timeline",
    "content": "<h3>My first interactive timeline</h3>\n<p>I've designed this timeline for a multimedia class at the University of North Carolina at Chapel Hill.</p>\n<p>I used JavaScript for the first time!</p>",
    "href": "personal/broadway.html"
  }
