@@ -13,3 +13,8 @@ async function getPuppy() {
     const data = await response.json();
     document.querySelector(".pupper").setAttribute("src", data.message);
 }
+
+const isMobile = () => {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+const mobile = isMobile();
