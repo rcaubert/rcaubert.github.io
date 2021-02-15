@@ -239,7 +239,8 @@ nav {
 
 /* Detail page */
 .illustration {
-    max-width: 50%;
+    height: 20rem;
+    margin-bottom: 2%;
 }
 
 .content {

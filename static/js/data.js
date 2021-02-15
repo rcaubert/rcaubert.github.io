@@ -12,7 +12,7 @@ const data = [
    "image": "grumpymaps.png",
    "video": "",
    "article_link": "",
-   "content": "<p>I am currently designing a cartography tool for Le Monde's newsroom. This colossal project allowed me to work on back-end and front-end development, UX/UI, and design. It allows journalists to transform any dataset into a bubble map, a choropleth map, or a pin map with GPS coordinates.</p>",
+   "content": "<p>I am currently designing a cartography tool for Le Monde's newsroom. It enables journalists to transform any dataset into a bubble map, a choropleth map, or a pin map with GPS coordinates. They can customize and adapt each map to their needs, and then publish the generated snippet on Le Monde's website.</p>\n<p>I am working alone on this project (with advice from my supervisors). It's been a challenge, but this colossal project has allowed me learn a lot about back-end and front-end development, UX/UI, and design. I am very happy to see how things are turning out!</p>\n<p>If you'd like to see a demo, feel free to <a href=\"../../contact.html\" class=\"link\">contact me</a>!</p>",
    "href": "le_monde/grumpymaps.html"
  },
  {
@@ -36,7 +36,7 @@ const data = [
    "id": "policelaws",
    "date": "20/12/2020",
    "tag1": "Reporting",
-   "tag2": "JavaScript",
+   "tag2": "Spreadsheets",
    "tag3": "",
    "tag4": "",
    "tag5": "",

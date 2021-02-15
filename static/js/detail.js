@@ -15,7 +15,7 @@ const makeContent = () => {
     }
     if (project.image.length > 0) {
         container.innerHTML +=
-        `<img class="rounded mx-auto d-block illustration" src="../../static/img/${project.image}"/>`;
+        `<img class="mx-auto d-block illustration" src="../../static/img/${project.image}"/>`;
     }
     if (project.content.length > 0) {
         container.innerHTML +=
