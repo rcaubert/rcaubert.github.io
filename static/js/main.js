@@ -10,9 +10,9 @@ const showExperiences = () => {
 window.addEventListener('load', showExperiences);
 window.addEventListener('scroll', showExperiences);
 
-/*async function getPuppy() {
+async function getPuppy() {
     const response = await fetch("https://dog.ceo/api/breeds/image/random");
     const data = await response.json();
-    document.querySelector("img").setAttribute("src", data.message);
+    document.querySelector(".puppy").setAttribute("src", data.message);
 }
-getPuppy();*/
+getPuppy();
