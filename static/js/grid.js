@@ -1,3 +1,5 @@
+const mobile = isMobile();
+console.log(mobile);
 const getProjects = (data, tag) => {
     let ret;
     console.log("tag", tag);
@@ -43,21 +45,40 @@ const makeGrid = (projects) => {
     projects.forEach(d => {
         if (d !== false) {
             const tags = getTags(d);
-            grid.innerHTML += `<div class="project" id="${d.id}" class="hide">
-                                    <a href="projects/${d.href}">
-                                        <article class="project-preview">
-                                            <img src="static/img/${d.image}"/>
-                                            <div class="cache"></div>
-                                            <div class="info">
-                                                <h2 class="project-title">${d.title}</h2>
-                                                    <h3 class="project-publisher">${d.publisher}</h3>
-                                                    <span class="project-meta">
-                                                        ${tags}
-                                                    </span>
-                                            </div>
-                                        </article>
-                                    </a>
-                                </div>`;
+            if (mobile === true) {
+                grid.innerHTML += `<div class="project" id="${d.id}" class="hide">
+                                            <article class="project-preview">
+                                                <img src="static/img/${d.image}"/>
+                                                <div class="cache"></div>
+                                                <div class="info">
+                                                    <h2 class="project-title">${d.title}</h2>
+                                                        <h3 class="project-publisher">${d.publisher}</h3>
+                                                        <p class="project-meta">
+                                                            ${tags}
+                                                        </p>
+                                                        <a href="projects/${d.href}" class="link">
+                                                            <button class="btn btn-dark project-btn">More</button>
+                                                        </a>
+                                                </div>
+                                            </article>
+                                    </div>`;
+            } else {
+                grid.innerHTML += `<div class="project" id="${d.id}" class="hide">
+                                        <a href="projects/${d.href}">
+                                            <article class="project-preview">
+                                                <img src="static/img/${d.image}"/>
+                                                <div class="cache"></div>
+                                                <div class="info">
+                                                    <h2 class="project-title">${d.title}</h2>
+                                                        <h3 class="project-publisher">${d.publisher}</h3>
+                                                        <span class="project-meta">
+                                                            ${tags}
+                                                        </span>
+                                                </div>
+                                            </article>
+                                        </a>
+                                    </div>`;
+            }
         }
     });
 }

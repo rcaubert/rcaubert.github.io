@@ -17,4 +17,3 @@ async function getPuppy() {
 const isMobile = () => {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
-const mobile = isMobile();

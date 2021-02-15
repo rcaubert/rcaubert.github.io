@@ -133,9 +133,9 @@ nav {
     transition: all 0.3s;
 }
 
-.project-preview .info a {
-    text-decoration: none;
-    color: inherit;
+.project-btn {
+    background-color: #0B4761 !important;
+    border: none;
 }
 
 .project-preview:hover .info {
@@ -158,6 +158,10 @@ nav {
 
 .project-preview .info .project-meta {
     font-size: 0.8rem;
+}
+
+project-preview .project-link {
+    font-size: 1rem;
 }
 
 /* Resume */
