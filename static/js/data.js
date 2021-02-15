@@ -174,5 +174,21 @@ const data = [
    "article_link": "https://www.lemonde.fr/les-decodeurs/article/2020/07/13/maillots-jaune-vert-a-pois-retrouvez-le-palmares-du-tour-de-france-depuis-sa-creation_6046063_4355770.html",
    "content": "<h3>Maillots jaune, vert, à pois… retrouvez le palmarès du Tour de France depuis sa création</h3>\n<p>This interactive article allows you to find every Tour de France jersey winner and key data for each edition since its creation.</p>\n<p>This project allowed me to delve back into JavaScript, which I had not used in a while.</p>",
    "href": "le_monde/tourdefrance.html"
+ },
+ {
+   "title": "Broadway Timeline",
+   "id": "broadway",
+   "date": "01/11/2017",
+   "tag1": "JavaScript",
+   "tag2": "",
+   "tag3": "",
+   "tag4": "",
+   "tag5": "",
+   "publisher": "Personal project",
+   "image": "broadway.png",
+   "video": "",
+   "article_link": "broadway-timeline/index.html",
+   "content": "<h3>My first interactive timeline</h3>\n<p>I've designed this timeline for a multimedia class at the University of North Carolina at Chapel Hill.</p>\n<p>I used JavaScript for the first time!</p>",
+   "href": "personal/broadway.html"
  }
 ];
