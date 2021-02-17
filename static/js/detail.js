@@ -13,7 +13,13 @@ const makeContent = () => {
             <h1 class="title">${project.title}</h1>
         </div>`;
     }
-    if (project.image.length > 0) {
+    if (project.video.length > 0) {
+        container.innerHTML +=
+        `<video class="video" controls autoplay>
+            <source src="../../static/vid/${project.video}" type="video/mp4">
+            <p>Sorry, your browser does not support videos.</p>
+        </video>`;
+    } else if (project.image.length > 0) {
         container.innerHTML +=
         `<img class="mx-auto d-block illustration" src="../../static/img/${project.image}"/>`;
     }

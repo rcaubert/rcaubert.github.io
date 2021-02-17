@@ -47,6 +47,7 @@ nav {
 
 .profile {
     margin-top: 2%;
+    margin-bottom: 2%;
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
@@ -98,7 +99,7 @@ nav {
 .project-preview {
     border-radius: 50%;
     margin: 1%;
-    border: solid 1px #0B4761;
+    border: solid 2px #0B4761;
     position: relative;
     overflow: hidden;
 }
@@ -242,6 +243,7 @@ project-preview .project-link {
 }
 
 /* Detail page */
+
 .illustration {
     height: 20rem;
     margin-bottom: 2%;
@@ -257,6 +259,17 @@ project-preview .project-link {
     color: #0B4761;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    width: 600px;
+}
+
+.video:focus {
+    outline: none;
 }
 
 /* Footer */
