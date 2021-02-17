@@ -30,7 +30,7 @@ const makeContent = () => {
         </div>`;
     }
     container.innerHTML +=
-    `<div class="row content d-flex justify-content-center"><a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back to the grid</button></a></div>`;
+    `<div class="row content d-flex justify-content-center"><a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back</button></a></div>`;
 }
 
 window.addEventListener('load', makeContent);
