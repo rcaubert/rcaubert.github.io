@@ -103,6 +103,7 @@ nav {
     position: relative;
     overflow: hidden;
 }
+
 .project-preview img {
     object-fit: cover;
     width: 100%;
@@ -122,6 +123,7 @@ nav {
 }
 
 .project-preview .info {
+    font-family: 'Work Sans', sans-serif;
     position: absolute;
 	width: 80%;
 	text-align: center;
@@ -149,11 +151,11 @@ nav {
 }
 
 .project-preview .info .project-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .project-preview .info .project-publisher {
-    font-size: 1rem;
+    font-size: 0.9rem;
 	margin: 0;
 }
 
@@ -161,7 +163,7 @@ nav {
     font-size: 0.8rem;
 }
 
-project-preview .project-link {
+.project-preview .project-link {
     font-size: 1rem;
 }
 
@@ -261,11 +263,31 @@ project-preview .project-link {
     text-align: center;
 }
 
-.video {
-    display: block;
-    margin: 0 auto;
-    padding: 5%;
-    width: 600px;
+@media screen and (max-device-width: 500px) {
+    .video {
+        display: block;
+        margin: 0 auto;
+        padding: 1%;
+        width: 300px;
+    }
+}
+
+@media only screen and (min-device-width : 501px) and (max-device-width : 1024px) {
+    .video {
+        display: block;
+        margin: 0 auto;
+        padding: 1%;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-device-width : 1025px){
+    .video {
+        display: block;
+        margin: 0 auto;
+        padding: 5%;
+        width: 700px;
+    }
 }
 
 .video:focus {
