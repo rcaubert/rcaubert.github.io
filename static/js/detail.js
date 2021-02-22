@@ -15,7 +15,7 @@ const makeContent = () => {
     }
     if (project.video.length > 0) {
         container.innerHTML +=
-        `<video class="video" controls autoplay>
+        `<video class="video" muted playsinline loop autoplay>
             <source src="../../static/vid/${project.video}" type="video/mp4">
             <p>Sorry, your browser does not support videos.</p>
         </video>`;

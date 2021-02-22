@@ -12,7 +12,7 @@ const data = [
    "image": "grumpymaps.png",
    "video": "",
    "article_link": "",
-   "content": "<p>I am currently designing a cartography tool for Le Monde's newsroom. It enables journalists to transform any dataset into a bubble map, a choropleth map, or a pin map with GPS coordinates. They can customize and adapt each map to their needs, and then publish the generated snippet on Le Monde's website.</p>\n<p>I am working alone on this project (with advice from my supervisors). It's been a challenge, but this colossal project has allowed me learn a lot about back-end and front-end development, UX/UI, and design. I am very happy to see how things are turning out!</p>\n<p>If you'd like to see a demo, feel free to <a href=\"../../contact.html\" class=\"link\">contact me</a>!</p>",
+   "content": "<p>I am currently designing a cartography tool for Le Monde's newsroom. It enables journalists to transform any dataset into a bubble map, a choropleth map, or a pin map with GPS coordinates. They can customize and adapt each map to their needs, and then publish the generated snippet on Le Monde's website.</p>\n<p>I am working alone on this app (with advice and feedback from my supervisors). It's been a challenge, but this colossal project has allowed me learn a lot about back-end and front-end development, databases, UX/UI, and design. I am very happy to see how things are turning out!</p>\n<p>If you'd like to see a demo, feel free to <a href=\"../../contact.html\" class=\"link\">contact me</a>!</p>",
    "href": "le_monde/grumpymaps.html"
  },
  {
@@ -186,7 +186,7 @@ const data = [
    "tag5": "",
    "publisher": "Personal project",
    "image": "broadway.png",
-   "video": "",
+   "video": "broadway.mp4",
    "article_link": "https://github.com/rcaubert/broadway-timeline",
    "content": "<h3>My first interactive timeline</h3>\n<p>I've designed this timeline for a multimedia class at the University of North Carolina at Chapel Hill.</p>\n<p>I used JavaScript for the first time!</p>",
    "href": "personal/broadway.html"
