@@ -4,7 +4,6 @@ const getProjects = (data, tag) => {
     ret = data.map(d => {
         let rObj;
         if ((tag === d.tag1 || tag === d.tag2 || tag === d.tag3 || tag === d.tag4 || tag === d.tag5) === true) {
-            console.log("true", tag, d.title);
             rObj = d;
         } else {
             rObj = false;

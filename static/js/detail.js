@@ -15,10 +15,12 @@ const makeContent = () => {
     }
     if (project.video.length > 0) {
         container.innerHTML +=
-        `<video class="video" muted playsinline loop autoplay>
-            <source src="../../static/vid/${project.video}" type="video/mp4">
-            <p>Sorry, your browser does not support videos.</p>
-        </video>`;
+        `<div class="ratio ratio-16x9">
+            <video class="video" muted playsinline loop autoplay>
+                <source src="../../static/vid/${project.video}" type="video/mp4">
+                <p>Sorry, your browser does not support videos.</p>
+            </video>
+        </div>`;
     } else if (project.image.length > 0) {
         container.innerHTML +=
         `<img class="mx-auto d-block illustration" src="../../static/img/${project.image}"/>`;
@@ -26,17 +28,23 @@ const makeContent = () => {
     if (project.content.length > 0) {
         container.innerHTML +=
         `<div class="row content d-flex justify-content-center">
-            <div>${project.content}</div>
+            <div class="col-md-6 p-2">${project.content}</div>
         </div>`;
     }
     if (project.article_link.length > 0) {
         container.innerHTML +=
         `<div class="row content d-flex justify-content-center">
-            <p>You can check out the full project by <a href="${project.article_link}" target="blank" class="link">clicking here</a>.</p>
+            <div class="col-md-6 p-2">
+                <p>You can check out the full project by <a href="${project.article_link}" target="blank" class="link">clicking here</a>.</p>
+            </div>
         </div>`;
     }
     container.innerHTML +=
-    `<div class="row content d-flex justify-content-center"><a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back</button></a></div>`;
+    `<div class="row content d-flex justify-content-center">
+        <div class="col-md-6 p-2">
+            <a href="../../index.html"><button type="button" class="btn btn-dark my-btn">Back</button></a>
+        </div>
+    </div>`;
 }
 
 window.addEventListener('load', makeContent);

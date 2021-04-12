@@ -254,11 +254,12 @@ nav {
 }
 
 .content {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 1rem;
+    text-align: justify;
 }
 
-.content h3 {
+.content h3, button {
     font-family: 'Work Sans', sans-serif;
     color: #0B4761;
     font-size: 1.5rem;
