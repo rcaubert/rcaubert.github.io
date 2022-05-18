@@ -5,7 +5,8 @@ const getProjects = (data, tag) => {
         let rObj;
         if ((tag === d.tag1 || tag === d.tag2 || tag === d.tag3 || tag === d.tag4 || tag === d.tag5) === true) {
             rObj = d;
-        } else {
+        }
+        else {
             rObj = false;
         }
         return rObj;
@@ -58,7 +59,8 @@ const makeGrid = (projects) => {
                                                 </div>
                                             </article>
                                     </div>`;
-            } else {
+            }
+            else {
                 grid.innerHTML += `<div class="project" id="${d.id}" class="hide">
                                         <a href="projects/${d.href}">
                                             <article class="project-preview">
